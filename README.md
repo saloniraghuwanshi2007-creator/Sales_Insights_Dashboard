@@ -53,13 +53,6 @@ The project uses a relational database consisting of the following tables:
 
 ---
 
-# 📊 Dashboard Preview
-
-<p align="center">
-<img src="dashboard.png" width="1000">
-</p>
-
----
 
 # ✨ Dashboard Features
 
