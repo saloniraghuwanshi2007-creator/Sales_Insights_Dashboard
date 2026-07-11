@@ -3,8 +3,8 @@
 <p align="center">
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 </p>
 
@@ -12,73 +12,44 @@
 
 # 📌 Project Overview
 
-This project presents an interactive **Sales Insights Dashboard** built using **Power BI** and **SQL**.
+This project is an interactive **Sales Insights Dashboard** developed using **Power BI** and **MySQL**.
 
-The sales data was extracted from a MySQL database, transformed using Power Query, and visualized in Power BI to provide meaningful business insights.
-
-The dashboard helps businesses analyze revenue, sales quantity, customer performance, product performance, market trends, and yearly sales.
+The project focuses on transforming raw sales data into meaningful business insights through data extraction, cleaning, modeling, and visualization. It enables businesses to monitor key performance indicators (KPIs), identify sales trends, evaluate market performance, and support data-driven decision-making.
 
 ---
 
-# 🎯 Objectives
+# 🎯 Project Objectives
 
-- Analyze sales performance
-- Track revenue trends
-- Identify top-performing customers
-- Identify top-selling products
-- Compare market-wise performance
-- Build an interactive business dashboard
+- Analyze overall sales performance.
+- Monitor revenue trends over time.
+- Identify top-performing markets.
+- Analyze customer and product performance.
+- Create an interactive business intelligence dashboard.
+- Support strategic business decisions using data.
 
 ---
 
 # 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|------|----------|
-| Power BI | Dashboard Development |
-| SQL (MySQL) | Data Extraction |
-| Excel | Data Cleaning |
-| Power Query | Data Transformation |
-| DAX | Calculated Measures |
+|------|---------|
+| Power BI | Interactive Dashboard Development |
+| MySQL | Data Storage & SQL Queries |
+| Power Query | Data Cleaning & Transformation |
+| DAX | Measures & Calculated Columns |
+| Microsoft Excel | Data Preparation |
 
 ---
 
-# 🗄 Database Structure
+# 🗄️ Database
 
-The project uses five relational tables.
+The project uses a relational database consisting of the following tables:
 
 - Customers
 - Products
 - Markets
 - Transactions
 - Date
-
-<p align="center">
-<img src="sales_schema.png" width="350">
-</p>
-
----
-
-# 💻 SQL Analysis
-
-The SQL script includes queries for:
-
-- Customer Analysis
-- Revenue Analysis
-- Product Analysis
-- Market Analysis
-- Sales Quantity Analysis
-- Date-wise Analysis
-
-### SQL Query Screenshots
-
-<p align="center">
-<img src="sql_queries_1.png" width="900">
-</p>
-
-<p align="center">
-<img src="sql_queries_2.png" width="900">
-</p>
 
 ---
 
@@ -90,41 +61,37 @@ The SQL script includes queries for:
 
 ---
 
-# 📈 Dashboard Features
+# ✨ Dashboard Features
 
-### Revenue Analysis
-
+### 📈 Revenue Analysis
 - Total Revenue
 - Revenue Trend
-- Revenue by Markets
+- Revenue by Market
 
-### Sales Analysis
+### 📦 Sales Analysis
+- Sales Quantity
+- Market-wise Sales Performance
 
-- Total Sales Quantity
-- Sales Quantity by Markets
+### 👥 Customer Analysis
+- Top Customers
+- Customer-wise Revenue
 
-### Customer Analysis
+### 📦 Product Analysis
+- Top Selling Products
 
-- Top 5 Customers
-
-### Product Analysis
-
-- Top 5 Products
-
-### Interactive Filters
-
+### 🎛 Interactive Filters
 - Year Filter
 - Date Filter
 
 ---
 
-# 📌 Key Business Insights
+# 📈 Key Business Insights
 
 - Delhi generated the highest revenue.
 - Electrical products contributed the highest sales.
 - Revenue trends varied across different years.
-- Interactive filters help users analyze sales efficiently.
-- The dashboard supports data-driven business decisions.
+- Interactive filters allow users to explore data dynamically.
+- Dashboard supports faster and more informed business decisions.
 
 ---
 
@@ -135,13 +102,13 @@ The SQL script includes queries for:
 - Power BI
 - DAX
 - Power Query
-- Excel
 - Data Cleaning
 - Data Transformation
 - Data Modeling
 - Dashboard Design
 - Data Visualization
-- Business Intelligence
+- Business Intelligence (BI)
+- KPI Reporting
 
 ---
 
@@ -155,10 +122,17 @@ sales-insights-powerbi-sql
 ├── DATA_ANALYSIS.sql
 ├── db_dump.sql
 ├── dashboard.png
-├── sales_schema.png
-├── sql_queries_1.png
-├── sql_queries_2.png
 ```
+
+---
+
+# 🚀 How to Use
+
+1. Import the database using **db_dump.sql** into MySQL.
+2. Execute the SQL queries available in **DATA_ANALYSIS.sql**.
+3. Open **Sales_Insights_Dashboard.pbix** in Microsoft Power BI Desktop.
+4. Refresh the data connection if required.
+5. Explore the interactive dashboard.
 
 ---
 
@@ -166,14 +140,13 @@ sales-insights-powerbi-sql
 
 ## Saloni Raghuwanshi
 
-Aspiring Data Analyst
+**Aspiring Data Analyst**
 
 📧 saloniraghuwanshi2007@gmail.com
 
-🔗 LinkedIn
-
+🔗 LinkedIn  
 https://www.linkedin.com/in/saloni-raghuwanshi-428938366
 
 ---
 
-⭐ If you found this project useful, consider giving it a Star.
+⭐ If you found this project helpful, consider giving it a Star!
